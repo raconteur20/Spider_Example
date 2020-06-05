@@ -1,0 +1,142 @@
+'''
+#Use a print statment to tell me your favorite animal
+print("girrafe")
+print("Hi there! My name is James I am 24 years-old.")
+#print greeting, what they ate for breakfast.
+print ("Good morning, what did you have for breakfast?")
+#Printing numbers with Strings
+#print("I am " + str(24))
+#print greeting, what they ate for breakfast.
+print ("Good morning, what did you have for breakfast?")
+
+#print what you ate for breakfast
+print("I ate some cereal and eggs")
+
+#print ask many eggs they ate
+print("How many eggs did you eat?")
+
+#print how many eggs you ate
+print("I ate 3 scrambled eggs")
+
+
+
+1. Spread peanut butter on one slice of bread.
+2. Spread jelly on one slice of bread.
+3. Put the slices of bread together with the peanut butter side and the jelly side touching.
+
+After-abstraction
+
+1. Spread x on a slice of bread. Repeat.
+2. Put the slices of bread together.
+
+
+
+
+#Print Strings, or text:
+print("Hello")
+
+#Print numbers
+print(5)
+
+
+#Printing numbers with Strings
+print("I am " + str(24))
+print(str(24) + " is my current age)
+
+#Using + with two strings appends them, or puts them together
+print("I am " + "James")
+
+
+#Spaces are counted in quotes
+print("My favorite number is" + str(8))
+print("My favorite number is " + str(8))
+
+
+#Print a sentence that states the year you were born. Make sure it ends with proper punctuation. End the sentence with the year.
+#print("I was born in the year of " + str(2008) + ".")
+
+#Print the statement: Grace Hopper was a computer scientist born in New York on December 9, 1906.
+
+print("Grace Hopper was a computer scientist born in New York on December " + str(9) + ", " + str(1906) + ".")
+
+#Print "My current age is 24."#
+print("My current age is " + str(24) + ".")
+
+
+
+# Variables are created when they are first assigned value.
+# The value associated to a variable can be updated to a new value.
+# Variables must be assigned before they can be used in expressions.
+
+##Schematic of declaring of variable
+#variable_name = value
+
+#Variable Examples
+name = "Gerard"
+number = 15
+month = "June"
+
+
+
+Rules for Variable Names
+1. Names cannot start with a number.
+2. Names cannot contain spaces either. If you have more than one word in your variable, separate using an underscore "_" instead of spaces. For example: one_way_of_defining_variable = "example"
+3. Names cannot contain any of the following special characters: ' " , < > / ? | ( ) ! @ # $ % & * - +
+4. Names cannot be Python reserved words like with or not. Reserved words in Python include words for which Python has a special meaning.
+5. Names starting with lowercase is considered to be a good practice. It is just a convention, not a rule.
+
+#Spider's Practice
+name = "spider"
+name = "Charles Robert Spider Schlopy"
+age = 12
+
+#Examine the following variable declarations. Next to each one, write a corrected version; if there is nothing wrong, right the word NONE
+
+Var1 = 7  #var_one = 7; #var1 = 7
+VAR5 = 8  #var_five = 8; #var5 = 8
+2var = 92 #two_var = 92; #var2 = 92
+firstLastName = "james gooding" #NONE
+Hello! = 0.283  #Hello = 0.283; #hello = 0.283
+variable24 = "my favorite food is"  #variable_twentyfour = "my favorite food is"
+str = "string"  #Not sure; string = "string"
+
+age = "14"
+print(age)
+
+age = "24"
+print(age)
+
+red = 5
+blue = 10
+print(red, blue)
+
+yellow = red
+print(yellow,red,blue)
+
+a = b = c = 1
+print(a,b,c)
+
+a, b, c = 1, "John", 32.5
+print(c,a,b)
+
+x = None
+print(x)
+
+#Name a variable name and assign YOUR name to it. Then print name. After that, change name's value to your friend's name. Print name again.
+
+name = "spider"
+print(name)
+
+name = "jessie"
+print(name)
+
+'''
+#Name a variable name and assign YOUR name to it. Then print name. After that, create a new variable - name it whatever you want - that still has your friend's name. Print your friend's name.
+
+name = "spider"
+print(my_friends_name)
+
+print(name)
+
+my_friends_name = "jessie"
+print(name)
