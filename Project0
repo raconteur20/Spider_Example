@@ -1,0 +1,16 @@
+
+#Create inputs for adj1, noun1, noun2, adj2.
+
+#1.Ask the user to input an adjective (adj1), plural noun (noun1), singular noun (noun2), and adjective (adj2).
+
+#2.Then take the lyrics to "Twinkle Twinkle Little Star" and print the first three lines of the song. Replace some of the adjectives and nouns with adj1, noun1, noun2, and adj2.
+
+adj1 = input("Write an adjictive :\t")
+noun1 = input("Write a plural noun :\t")
+adj2 = input("Write a second adjictive :\t")
+noun2 = input("Wite a sungular noun:\t")
+print(adj1)
+print(noun1)
+print(adj2)
+print(noun2)
+print("Twinkle, twinkle, " + adj1 + " "+ noun2 + ", How I wonder what you are! " + noun1 + " above the world so " + adj2 + ", Like a diamond in the sky.")
